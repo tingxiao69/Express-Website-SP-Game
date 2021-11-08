@@ -1,0 +1,67 @@
+
+.loading_screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #282935;
+    z-index:-1;
+}
+
+#SP_logo {
+    color: white;
+    z-index:2;
+    display: block;
+    padding-left:2rem;
+}
+
+#loading_icon{
+    animation:loading_icon 2s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#left_lady{
+    animation: left_lady 2s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+
+#right_lady{
+    animation: right_lady 2s ease-in-out infinite alternate;
+    transform-origin: top;
+
+}
+
+
+@keyframes loading_icon{
+    from{
+        transform: rotateZ(0deg)
+    } to {
+        transform: rotateZ(360deg)
+    }
+}
+
+@keyframes left_lady {
+    from{
+        transform: rotateX(0deg)
+    }to {
+        transform: rotateX(20deg)
+    }
+}
+
+
+@keyframes right_lady{
+    from{
+        transform: rotateX(20deg)
+    }to {
+        transform: rotateX(0deg)
+    }
+}
+
+
+ 

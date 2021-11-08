@@ -1,0 +1,205 @@
+html {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* universal style */
+
+button {
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    color: blue;
+    background-color: blue;
+}
+
+div.d-xl-flex div.navbar-nav {
+    padding-top: 0.5rem;
+}
+
+div#editGame_btn {
+    max-width: 150px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    float:right;
+    margin-top: 0;
+    right: 2rem;
+    top:3rem;
+    z-index:1000;
+
+}
+
+#after_loaded{
+    display:none
+}
+
+
+@media only screen and (max-width: 800px) {
+    div#editGame_btn {
+        max-width: 150px;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        float:right;
+        margin-top: 0;
+        right: 0rem;
+        top:3rem;
+        z-index:100;
+        font-size: 10px;
+    
+    }
+}
+
+/* footer backgound color */
+
+.bg-footer {
+    background-color: #202020;
+}
+
+.padding-50 {
+    padding-top: 50px;
+}
+
+/* button color modification */
+
+.button-color {
+    background-color: blue;
+    border-color: blue;
+}
+
+/* navbar style */
+
+.navbar {
+    border-bottom: 1px solid #333333;
+}
+
+.bg-secondary {
+    color: #ffffff;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+#background-custome-color {
+    background-color: #161616;
+    color: #dcddde;
+}
+
+.navbar-custome-color {
+    background-color: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(5px);
+    color: #dcddde;
+}
+
+/* styles for the footer section */
+
+#contact-us {
+    background-color: transparent;
+}
+
+/* style for main */
+
+.carousel-inner img {
+    max-height: 90vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+img.thumbnails {
+    height: 250px;
+    width: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.button-text, .button-text:hover {
+    text-decoration: none;
+}
+
+.font-lg-custom p {
+    font-size: 1.4rem;
+}
+
+.p-slogan {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+/* style for the quotation marks */
+
+.bq-custome:before {
+    content: '“';
+    right: 10px;
+}
+
+.bq-custome:after {
+    content: '”';
+    left: 10px;
+}
+
+.bq-custome:before, .bq-custome:after {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    position: relative;
+    top: 40px;
+    color: blue;
+    display: inline-block;
+}
+
+.bq-custome-md:before {
+    content: '“';
+    right: 5px;
+}
+
+.bq-custome-md:after {
+    content: '”';
+    left: 5px;
+}
+
+.bq-custome-md:before, .bq-custome-md:after {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    color: blue;
+    display: inline-block;
+}
+
+/* style for games page */
+
+.card-custome {
+    width: 23%;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* styles used in the about page */
+
+hr.rounded {
+    border-top: 4px solid #333;
+    border-radius: 5px;
+    width: 370px;
+}
+
+.album-background {
+    background-color: #202020;
+}
+
+.card-width {
+    width: 20rem;
+}
+
+/* community page */
+
+.small {
+    font-size: 13px;
+}
+
+.toggle-custome {
+    top: 90px;
+}

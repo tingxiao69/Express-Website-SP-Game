@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Profile Card Hover Animation | CodingNepal</title> -->
+    <link rel="stylesheet" href="css/pop_up copy.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div id="pop_up_main">
+        <div class="pop_up" id="pop_card">
+
+            <i class="fas fa-times cancel_pop_up"></i>
+
+            <div class="wrapper">
+                <div class="title">
+                    Add Category</div>
+            </div>
+            <div class="content row_pop_up">
+                <form action="post">
+                    <input type="text" class='input_box_add_cat'>
+
+                </form>
+                <div class="buttons">
+                    <div class="btn row_pop_up">
+                        <button>Add Category</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function hideOnClickOutside(selector) {
+            const outsideClickListener = (event) => {
+                const $target = $(event.target);
+                if (!$target.closest(selector).length && $(selector).is(':visible')) {
+                    const pop_up = document.querySelector('#pop_up_main')
+                    const tl = new TimelineMax()
+                    tl.fromTo(pop_up, 0.5, { display: 'flex', opacity: '1' },
+                        { opacity: '0', display: 'none' })
+                    // reverse all the change made to the pop up screen
+                    tl.fromTo(main_menu, 0.5, { display: 'none', opacity: '1' },
+                        { display: 'block' })
+                    tl.fromTo(add_cat_screen, 0.5, { opacity: '1', zIndex: '100', display: 'block' },
+                        { opacity: '0', zIndex: '2', display: 'none' })
+                }
+            }
+            document.addEventListener('click', outsideClickListener)
+        }
+
+        hideOnClickOutside('#pop_card')
+    </script>
+</body>
+
+</html>

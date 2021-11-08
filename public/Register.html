@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP|Register</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.js"
+        integrity="sha512-lpKqZ6ev3aDbtURjo0T1GEL243VzqEhZmYcZMxqebUubn0RkdFYpa4qrZcTweCqCX+BEkBXWdQw3QGM9tuz7Pw=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body id="background-custome-color">
+<!--navigation bar for screen size medium and above -->
+<nav
+        class="navbar navbar-expand-md navbar-dark sticky-top mt-auto mb-3 pb-2 pt-3  d-none d-lg-flex d-xl-flex d-md-flex pl-4 navbar-custome-color">
+    <div class="mr-auto  d-none d-lg-flex d-xl-flex d-md-flex">
+        <a class="navbar-brand" href="Main.html">
+            <!-- brand logo -->
+            <h2 class="font-weight-lighter h2">SP | Games</h2>
+        </a>
+        <!-- Brand name -->
+
+    </div>
+
+    <!-- navbar content and alignment -->
+    <div class='d-none d-lg-flex d-xl-flex d-md-flex'>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link h3 font-weight-lighter " target="#" href="http://localhost:8081/main">Home</a>
+            <a class="nav-item nav-link h3 font-weight-lighter" target="#" href="http://localhost:8081/games">Games</a>
+            <a class="nav-item nav-link h3 font-weight-lighter" target="#" href="http://localhost:8081/about">About</a>
+            <a class="nav-item nav-link h3 font-weight-lighter" target="#" href="http://localhost:8081/community">Community</a>
+            <a class="nav-item nav-link h3 font-weight-lighter login_special active" target="#" href="http://localhost:8081/login">Login</a>
+        </div>
+    </div>
+</nav>
+
+<!--navigation bar for screen size below medium -->
+<nav
+        class="navbar navbar-expand-md navbar-dark sticky-top m-auto d-flex d-xl-none d-lg-none d-md-none pt-4 mb-5 navbar-custome-color">
+    <a class="navbar-brand" href="Main.html">
+        <!-- brand logo -->
+        <h2 class="font-weight-lighter h2">SP | Games</h2>
+    </a>
+    <!-- collapsable button -->
+    <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler "
+            data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- navbar content -->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link h3 font-weight-lighter" target="#" href="http://localhost:8081/main">Home</a>
+            <a class="nav-item nav-link h3 font-weight-lighter" target="#" href="http://localhost:8081/games">Games</a>
+            <a class="nav-item nav-link h3 font-weight-lighter" target="#" href="http://localhost:8081/about">About</a>
+            <a class="nav-item nav-link h3 font-weight-lighter" target="#" href="http://localhost:8081/community">Community</a>
+            <a class="nav-item nav-link h3 font-weight-lighter login_special active" target="#" href="http://localhost:8081/login">Login</a>
+        </div>
+    </div>
+</nav>
+
+    <section class="container-fluid ">
+        <h1 class="display-4 text-center mt-5 mb-5">Welcome To Join us</h1>
+        <!-- for the purpose of demostration, was-validated is being used. As the login button is reassigned to the community page -->
+        <!-- login form -->
+        <form class="col-sm-9 col-md-6 col-lg-4 col-xl-3 mr-auto ml-auto needs-validation" id="loginForm" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="E.g. Shi Tingxiao" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="E.g. ABC@ABC.com" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+            </div>
+
+            <p class=" text-center pt-2 pb-2">Already a member? <a href="Login.html">Login</a></p>
+
+            <button type="submit"
+                class=" text-center d-block text-white button-text mr-auto ml-auto mt-2 btn btn-primary text-center  button-color pl-3 pr-3 pt-2 pb-2 mb-5">
+                <span class="font-weight-light h2">Register</span>
+            </button>
+        </form>
+
+    </section>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4 mt-5 bg-footer">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Empty Grid column -->
+            <div class="col-lg-3  col-md-2 mt-md-0 mt-3 d-none d-xl-block d-lg-block d-md-block">
+            </div>
+
+            <hr class="clearfix w-100 d-md-none pb-3 ">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3 col-6">
+
+                <!-- Links -->
+                <h5 class="text-uppercase h2 font-weight-light">SP|GAMES</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="About.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="About.html ">FAQ</a>
+                    </li>
+                    <li>
+                        <!-- contact us link -->
+                        <a data-target="#contact-us-submission-modal" data-toggle="modal" href="#!"
+                           id="constact-us">Contact us</a>
+
+                        <!-- contact us model -->
+                        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade"
+                             id="contact-us-submission-modal" role="dialog" tabindex="-1">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content bg-black">
+                                    <div class="modal-header">
+                                        <h2 class="modal-title font-weight-light" id="exampleModalLabel">Your
+                                            feedback</h2>
+                                        <button aria-label="Close" class="close text-light" data-dismiss="modal"
+                                                type="button">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- the form of contact us -->
+                                        <form class="needs-validation" id="contact-us-submission" novalidate>
+                                            <div class="form-group">
+                                                <label class="col-form-label" for="inputEmail_contact_us">Please Enter Your
+                                                    Email</label>
+                                                <input class="form-control" id="inputEmail_contact_us" required
+                                                       type="email">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-form-label" for="issue_description">Brief
+                                                    Description
+                                                    of Your Problem:</label>
+                                                <input class="form-control" id="issue_description" required
+                                                       type="text">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-form-label" for="issue_elaboration">Your
+                                                    Elaboration:</label>
+                                                <textarea class="form-control" id="issue_elaboration"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-secondary" data-dismiss="modal"
+                                                type="button">Close
+                                        </button>
+                                        <button class="btn btn-primary" id= 'contact-us-sub' form="contact-us-submission"
+                                                type="submit">Send
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3 col-6">
+
+                <!-- Links -->
+                <h5 class="text-uppercase h2 font-weight-light">Social </h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#">Discord</a>
+                    </li>
+                    <li>
+                        <a href="#">Community</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
+            <div class="col-lg-3 col-md-5 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase h2 font-weight-light">A word</h5>
+                <p class="">We believe that gaming is a great way to connect. We have the complete library
+                    catered
+                    for
+                    differnt platforms and players, join us now!</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-3 col-md-1 mt-md-0 mt-3 d-none d-xl-block d-lg-block d-md-block">
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright
+        <a href="Main.html">SP|Games</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="js/footer_novalidate.js"></script>
+    <script src="js/loading_page.js"></script>
+</body>
+
+</html>
