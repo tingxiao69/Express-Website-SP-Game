@@ -41,3 +41,5 @@ The website needs to achieve several functions:
  9)	Edit Game Page: http://localhost:8081/editgame_page
 
 # Project Demo
+
+![Intro](README_FILES/Intro.gif)
