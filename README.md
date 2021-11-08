@@ -12,6 +12,19 @@ The website needs to achieve several functions:
  4) User can update their profile picture
  5) Admin is able to create new games
 
+
+# Run the file
+ - Software Prerequisite
+    - Mysql 
+    - MySql WorkBench 
+    - Visual Stuido Code
+ 1) Download -> unzip/Clone the file. 
+ 2) Open the project in VS code
+ 3) Open up a terminal and key in ```npm install``` to install all the node_modules
+ 4) Open MySql Workbench, in the tool bar, navigate to server > Data import > Import from self-contained file and select the 'spgames-stx.sql' found in the 'Mysql Dump' Folder of the project
+ 5) Once successfully imported, head to the project folder > model > dataBaseConfig.js, and edit the mysql.createConnection according to your computer settings.
+ 6) In the VS code terminal, key in ```node express.js``` to run the project. The website will be hosted at http://localhost:8081/
+
 # Page Directory
 ### Globally Accessible
  1)	Home Page: http://localhost:8081/main
@@ -26,17 +39,5 @@ The website needs to achieve several functions:
 ### Accessible only for admin
  8)	Add Game Page: http://localhost:8081/addgame_page
  9)	Edit Game Page: http://localhost:8081/editgame_page
- 
 
-
-# Run the file
- - Software Prerequisite
-    - MySql WorkBench 
-    - Visual Stuido Code
- 1) Download -> unzip/Clone the file. 
- 2) Open the project in VS code
- 3) Open up a terminal and key in ```npm install``` to install all the node_modules
- 4) Open MySql Workbench, in the tool bar, navigate to server > Data import > Import from self-contained file and select the 'spgames-stx.sql' found in the 'Mysql Dump' Folder of the project
- 5) Once successfully imported, head to the project folder > model > dataBaseConfig.js, and edit the mysql.createConnection according to your computer settings.
- 6) In the VS code terminal, key in ```node express.js``` to run the project. The website will be hosted at http://localhost:8081/
-
+# Project Demo
