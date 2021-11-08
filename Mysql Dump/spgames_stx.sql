@@ -1,10 +1,10 @@
 CREATE DATABASE  IF NOT EXISTS `spgames_stx` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `spgames_stx`;
--- MySQL dump 10.13  Distrib 8.0.22, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.27, for Win64 (x86_64)
 --
--- Host: localhost    Database: spgames_stx
+-- Host: 127.0.0.1    Database: spgames_stx
 -- ------------------------------------------------------
--- Server version	8.0.23
+-- Server version	8.0.27
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -67,7 +67,7 @@ CREATE TABLE `game_category_reference` (
 
 LOCK TABLES `game_category_reference` WRITE;
 /*!40000 ALTER TABLE `game_category_reference` DISABLE KEYS */;
-INSERT INTO `game_category_reference` VALUES (1,1),(2,1),(4,1),(5,1),(55,1),(1,2),(4,2),(5,2),(55,2),(79,2),(5,3),(2,4),(4,4),(55,4),(81,6),(3,7),(81,7),(81,17),(6,19),(79,35),(80,35),(82,35),(83,35),(80,36),(82,36),(83,36);
+INSERT INTO `game_category_reference` VALUES (1,1),(2,1),(4,1),(5,1),(1,2),(4,2),(5,2),(5,3),(2,4),(4,4),(3,7),(6,19);
 /*!40000 ALTER TABLE `game_category_reference` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -92,7 +92,7 @@ CREATE TABLE `game_image` (
 
 LOCK TABLES `game_image` WRITE;
 /*!40000 ALTER TABLE `game_image` DISABLE KEYS */;
-INSERT INTO `game_image` VALUES (1,'game_image/game1.jpg'),(2,'game_image/game2.jpg'),(3,'game_image/game3.jpg'),(4,'game_image/game4.jpg'),(5,'game_image/game5.jpg'),(6,'game_image/game6.jpg'),(55,'game_image/game55.jpg'),(79,'game_image/game79.jpg'),(80,'game_image/game80.jpg'),(81,'game_image/game81.jpg'),(82,'game_image/game82.jpg'),(83,'game_image/game83.jpg');
+INSERT INTO `game_image` VALUES (1,'game_image/game1.jpg'),(2,'game_image/game2.jpg'),(3,'game_image/game3.jpg'),(4,'game_image/game4.jpg'),(5,'game_image/game5.jpg'),(6,'game_image/game6.jpg');
 /*!40000 ALTER TABLE `game_image` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -122,7 +122,7 @@ CREATE TABLE `games` (
 
 LOCK TABLES `games` WRITE;
 /*!40000 ALTER TABLE `games` DISABLE KEYS */;
-INSERT INTO `games` VALUES (1,'Assassin’s Creed Valhalla','Assassin\'s Creed Valhalla is an action role-playing video game developed by Ubisoft Montreal and published by Ubisoft. It is the twelfth major installment and the twenty-second release in the Assassin\'s Creed series, and a successor to the 2018\'s Assassin\'s Creed Odyssey.','69.90','PC','2020','2020-12-15 06:23:18'),(2,'Call of Duty: Modern Warfare','Call of Duty: Modern Warfare is a 2019 first-person shooter video game developed by Infinity Ward and published by Activision','88','PC','2019','2021-01-03 08:13:17'),(3,'F1 2020','F1 2020 is the official video game of the 2020 Formula 1 and Formula 2 Championships developed and published by Codemasters. It is the thirteenth title in the Formula 1 series developed by the studio and was released on 7 July 2020 for pre-orders of the Michael Schumacher Edition and 10 July 2020 for the Seventy Edition on Microsoft Windows, PlayStation 4, Xbox One and, for the first time, Stadia.[1] The game is the twelfth installment in the franchise, and it features the twenty-two circuits, twenty drivers and ten teams proposed in the provisional 2020 Formula 1 World Championship.','51','PC','2020','2021-01-03 08:33:17'),(4,'Cyberpunk 2077','Cyberpunk 2077 is a 2020 action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe','49.99','PC','2020','2021-01-03 08:42:16'),(5,'watch dog: legion','Watch Dogs: Legion is a 2020 action-adventure game published by Ubisoft and developed by its Toronto studio. It is the third instalment in the Watch Dogs series, and the sequel to 2016\'s Watch Dogs 2.','53.53','PC','2020','2021-01-03 08:43:26'),(6,'Forza Horizon 4','Forza Horizon 4 is a 2018 racing video game developed by Playground Games and published by Microsoft Studios. It was released on 2 October 2018 on Xbox One and Microsoft Windows after being announced at Xbox\'s E3 2018 conference. An enhanced version of the game was released on Xbox Series X/S on 10 November 2020','79.90','PC','2018','2021-01-03 08:45:18'),(55,'the testing game','fuck','90000','PC','1999','2021-02-02 07:59:55'),(79,'I love BED','I love MR TAN','999,999,999','xbox','2020','2021-02-02 14:50:20'),(80,'I love Mr Tan','I love BED','999,999,999','playstation','2021','2021-02-02 14:51:30'),(81,'Testing 123','Fuck u','1234567890','Xbox','1999','2021-02-07 09:43:46'),(82,'F88k','This is a testing game','1000','PlayStation','2020','2021-02-07 12:12:11'),(83,'fasdfajd','fadfafa','34567890','PC','2021','2021-02-07 12:17:42');
+INSERT INTO `games` VALUES (1,'Assassin’s Creed Valhalla','Assassin\'s Creed Valhalla is an action role-playing video game developed by Ubisoft Montreal and published by Ubisoft. It is the twelfth major installment and the twenty-second release in the Assassin\'s Creed series, and a successor to the 2018\'s Assassin\'s Creed Odyssey.','69.90','PC','2020','2020-12-15 06:23:18'),(2,'Call of Duty: Modern Warfare','Call of Duty: Modern Warfare is a 2019 first-person shooter video game developed by Infinity Ward and published by Activision','88','PC','2019','2021-01-03 08:13:17'),(3,'F1 2020','F1 2020 is the official video game of the 2020 Formula 1 and Formula 2 Championships developed and published by Codemasters. It is the thirteenth title in the Formula 1 series developed by the studio and was released on 7 July 2020 for pre-orders of the Michael Schumacher Edition and 10 July 2020 for the Seventy Edition on Microsoft Windows, PlayStation 4, Xbox One and, for the first time, Stadia.[1] The game is the twelfth installment in the franchise, and it features the twenty-two circuits, twenty drivers and ten teams proposed in the provisional 2020 Formula 1 World Championship.','51','PC','2020','2021-01-03 08:33:17'),(4,'Cyberpunk 2077','Cyberpunk 2077 is a 2020 action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe','49.99','PC','2020','2021-01-03 08:42:16'),(5,'watch dog: legion','Watch Dogs: Legion is a 2020 action-adventure game published by Ubisoft and developed by its Toronto studio. It is the third instalment in the Watch Dogs series, and the sequel to 2016\'s Watch Dogs 2.','53.53','PC','2020','2021-01-03 08:43:26'),(6,'Forza Horizon 4','Forza Horizon 4 is a 2018 racing video game developed by Playground Games and published by Microsoft Studios. It was released on 2 October 2018 on Xbox One and Microsoft Windows after being announced at Xbox\'s E3 2018 conference. An enhanced version of the game was released on Xbox Series X/S on 10 November 2020','79.90','PC','2018','2021-01-03 08:45:18');
 /*!40000 ALTER TABLE `games` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -154,7 +154,7 @@ CREATE TABLE `review` (
 
 LOCK TABLES `review` WRITE;
 /*!40000 ALTER TABLE `review` DISABLE KEYS */;
-INSERT INTO `review` VALUES (11,38,2,'I love to play this game!',9,'2021-02-01 05:53:03'),(12,38,3,'I love to play this game!',8,'2021-02-01 05:53:10'),(13,38,6,'I love to play this game!',8,'2021-02-01 05:53:19'),(14,39,5,'This game is just so good',8,'2021-02-01 05:53:56'),(15,39,4,'Cyberpunk is just bad',3,'2021-02-01 05:54:30'),(16,38,4,'The game is just not ready for sale',1,'2021-02-01 05:55:12'),(17,38,1,'I love this game',10,'2021-02-01 05:56:02'),(25,40,55,'this game is shit',1,'2021-02-02 08:00:13'),(26,40,55,'This is Shi Tingxiao, my code is just so damm messy and I haven\'t started on my other projects, my life is just fucked',1,'2021-02-02 13:39:01'),(27,38,80,'100 out of 10, please Mr Tan, need marks\r\n',100,'2021-02-02 15:19:32'),(28,39,55,'This game is just so good that i don\'t even have a word for it\r\n',10,'2021-02-07 07:07:54'),(29,40,81,'fjadfad',1,'2021-02-07 09:44:36'),(30,40,81,'Fuckyou ',234567890,'2021-02-07 09:44:50'),(31,39,1,'I also love this game\r\n',10,'2021-02-07 13:32:31');
+INSERT INTO `review` VALUES (11,38,2,'I love to play this game!',9,'2021-02-01 05:53:03'),(12,38,3,'I love to play this game!',8,'2021-02-01 05:53:10'),(13,38,6,'I love to play this game!',8,'2021-02-01 05:53:19'),(14,39,5,'This game is just so good',8,'2021-02-01 05:53:56'),(15,39,4,'Cyberpunk is just bad',3,'2021-02-01 05:54:30'),(16,38,4,'The game is just not ready for sale',1,'2021-02-01 05:55:12'),(17,38,1,'I love this game',10,'2021-02-01 05:56:02'),(31,39,1,'I also love this game\r\n',10,'2021-02-07 13:32:31');
 /*!40000 ALTER TABLE `review` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -198,4 +198,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-02-07 22:29:36
+-- Dump completed on 2021-11-09  0:38:29
