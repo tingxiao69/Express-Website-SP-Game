@@ -18,11 +18,16 @@ Globally Accessible:
  2)	Games Page: http://localhost:8081/games
  3)	About Page: http://localhost:8081/about
  4)	Community Page: http://localhost:8081/community
+
 Accessible only when not logged in 
  5)	Login Page: http://localhost:8081/login
  6)	Register Page: http://localhost:8081/register
+
+
 Accessible only when logged in
  7)	User Profile Page: http://localhost:8081/mypage
+
+
 Accessible only for admin
  8)	Add Game Page: http://localhost:8081/addgame_page
  9)	Edit Game Page: http://localhost:8081/editgame_page
