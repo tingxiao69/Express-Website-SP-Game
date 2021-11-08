@@ -3,6 +3,9 @@
  - This project is completed in Sep 2020
  - This is a practicing project which utilises Express.js, MySql, Passport.js, HTML5 and CSS3
 
+# Project Objective
+ - Test the front-end skill using HTML5 and CSS3
+
 # Run the file
  - Software Prerequisite
     - MySql WorkBench 
