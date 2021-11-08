@@ -4,7 +4,15 @@
  - This is a practicing project which utilises Express.js, MySql, Passport.js, HTML5 and CSS3
 
 # Project Objective
- - Test the front-end skill using HTML5 and CSS3
+SP GAME is an online game sales platform, recently they want to revamp their website, thus you are hired as the developer to create a website hosted using Express.js.
+The website needs to achieve several functions:
+ 1) Allow user sign up
+ 2) User needs to be able to have presistent login and logout, user credentials needs to be protected(bcrypt)
+ 3) User can search a title and see details to each game listing
+ 4) User can update their profile picture
+ 5) Admin is able to create new games
+
+
 
 # Run the file
  - Software Prerequisite
