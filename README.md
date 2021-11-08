@@ -9,11 +9,31 @@ The website needs to achieve several functions:
  1) Allow user sign up
  2) User needs to be able to have presistent login and logout, user credentials needs to be protected(bcrypt)
  3) User can search a title and see details to each game listing
- 4) User can update their profile picture
- 5) Admin is able to create new games
+ 4) User can add comments to a game listing
+ 5) User can update their profile picture
+ 6) Admin is able to create new games
+ 7) Admin can update existing games pictures
+ 
+# Project Demo
+### Quick walk through
+![Intro](README_FILES/Intro.gif)
+### User Sign up
+![Signup](README_FILES/sign_up.gif)
+### Presistent Login
+![Login](README_FILES/presistent_login.gif)
+### Search and See Details
+![Search](README_FILES/search.gif)
+### Add Comments
+![Add Comments](README_FILES/add_comments.gif)
+### Update Profile Picture
+![Update Profile Picture](README_FILES/update_profile_picture.gif)
+### Admin Create New Games
+![Admin Create New Games](README_FILES/admin_create_new_games.gif)
+### Admin Update Existing Games Pictures
+![Admin Update Existing Games Pictures](README_FILES/admin_update_existing_games_pictures.gif)
 
 
-# Run the file
+# Try Yourself
  - Software Prerequisite
     - Mysql 
     - MySql WorkBench 
@@ -40,6 +60,3 @@ The website needs to achieve several functions:
  8)	Add Game Page: http://localhost:8081/addgame_page
  9)	Edit Game Page: http://localhost:8081/editgame_page
 
-# Project Demo
-
-![Intro](README_FILES/Intro.gif)
